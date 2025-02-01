@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <div className={`${lightMode ? "bg-white" : "bg-black"} h-full`}>
       <Head>
-        <title>Dlist</title>
+        <title>sealX3</title>
       </Head>
       <div className="flex flex-col justify-between items-stretch h-full">
       <Navbar lightMode = {lightMode} setlightMode = {setlightMode}/>
