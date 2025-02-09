@@ -17,7 +17,7 @@ export default function Footer(props) {
                     </div>
                     <div className='justify-end items-end mb-3'>
                         <h1 className='font-bold text-3xl'>sealX3</h1>
-                        <p className='text-sm'>Developed by Harsh Awasthi</p>
+                        <p className='text-sm'>Developed by <b>Harsh Awasthi</b></p>
                     </div>
                 </div>
                 
@@ -25,7 +25,7 @@ export default function Footer(props) {
             <div className='justify-around'>
                 <div className='gap-3'>
                     <div >
-                        <a href="" className='hover:underline hover:underline-offset-4'>Privacy</a>
+                        <p className='text-sm hover:underline hover:underline-offset-4'>&copy; 2025 sealX3</p>
                     </div>
                     <div>
                         <a href="https://pixelsbeing.site" className='hover:underline hover:underline-offset-4' target='blank'>Get Your site</a>

@@ -2,7 +2,7 @@ import React from 'react'
 
 
 export default function Cards(props) {
-  const trimmedWalletAddress = props.walletAddress.slice(0,5)+"...."+props.walletAddress.slice(-5)
+  const trimmedWalletAddress = props.walletAddress.slice(0,8)+"..."+props.walletAddress.slice(-9)
   return (
     <div className={`hover:shadow-lg hover:shadow-green-500 hover:scale-105 duration-300 border rounded-xl ${props.lightMode? "border-black" : "border-white"} flex flex-col gap-3 p-3 `}>
        <div>
@@ -19,7 +19,7 @@ export default function Cards(props) {
        </div>
        <div>
         <p className='font-medium text-sm'>Wallet Address</p>
-        <p className='text-2xl'>{trimmedWalletAddress}</p>
+        <p className='text-2xl break-all'>{trimmedWalletAddress}</p>
        </div>
     </div>
   )
